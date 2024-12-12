@@ -1,0 +1,24 @@
+{
+  "$schema": "https://dl.viam.dev/module.schema.json",
+  "module_id": "brad-grigsby:upload_images_button",
+  "visibility": "public",
+  "url": "https://github.com/bgrigsby8/viam_upload_images_button",
+  "description": "Modular sensor component: upload_images_button",
+  "models": [
+    {
+      "api": "rdk:component:sensor",
+      "model": "brad-grigsby:upload_images_button:upload_images_button"
+    }
+  ],
+  "entrypoint": "dist/main",
+  "first_run": "",
+  "build": {
+    "build": "./build.sh",
+    "setup": "./setup.sh",
+    "path": "dist/archive.tar.gz",
+    "arch": [
+      "linux/amd64",
+      "linux/arm64"
+    ]
+  }
+}

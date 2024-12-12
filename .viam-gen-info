@@ -1,0 +1,12 @@
+{
+  "module_name": "upload_images_button",
+  "namespace": "brad-grigsby",
+  "language": "python",
+  "resource_type": "component",
+  "resource_subtype": "sensor",
+  "model_name": "upload_images_button",
+  "enable_cloud_build": true,
+  "initialize_git": false,
+  "generator_version": "0.1.0",
+  "generated_on": "2024-12-12T22:24:08.953131Z"
+}
